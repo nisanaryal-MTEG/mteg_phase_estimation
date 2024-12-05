@@ -22,6 +22,9 @@ cuda = True if torch.cuda.is_available() else False
 device = torch.device("cuda")
 
 
+
+
+
 #
 # Write the threshold criteria currently in use for the deployment in this section
 # area >2000 and color<=1
