@@ -99,6 +99,7 @@ class CSVDataset(Dataset):
         # dfzero.iloc[0:df1[df1.columns[0]].count()] = df1
         return df1
 
+
     def __getitem__(self, idx):
         if torch.is_tensor(idx):
             idx = idx.tolist()
