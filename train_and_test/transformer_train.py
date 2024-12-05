@@ -20,8 +20,6 @@ from sklearn.model_selection import train_test_split
 from sklearn.preprocessing import StandardScaler, MinMaxScaler
 import matplotlib.pyplot as plt
 
-
-
 plt.style.use('ggplot')
 from pandas.plotting import scatter_matrix
 # import plotly.express as px
